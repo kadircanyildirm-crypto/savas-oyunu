@@ -1,0 +1,57 @@
+# ÇELİK FIRTINA - oyunu gizli kaynak deposundan derleyip (karıştırma + alan kilidi) GitHub Pages'e yayınlar.
+# Derlenen dosyalar bu depoya eklenmez; yalnız Pages sitesinde yayınlanır.
+# © 2026 Kadir Can Yildirim · Tüm hakları saklıdır.
+name: Oyunu yayınla
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [yayinla]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  yayinla:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.dagit.outputs.page_url }}
+    steps:
+      - name: Gizli kaynağı al
+        uses: actions/checkout@v4
+        with:
+          repository: kadircanyildirm-crypto/savas-oyunu-kaynak
+          ref: main
+          ssh-key: ${{ secrets.KAYNAK_ANAHTARI }}
+          persist-credentials: false
+
+      - name: Node kur
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Derle (birleştir, karıştır, alan kilidi)
+        working-directory: yayin
+        run: |
+          npm ci --no-audit --no-fund
+          node build.mjs
+          rm -rf cikti/.git
+
+      - name: Pages ayarı
+        uses: actions/configure-pages@v5
+
+      - name: Siteyi paketle
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: yayin/cikti
+
+      - name: Yayınla
+        id: dagit
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,160 @@
+ÇELİK FIRTINA · TESCİLLİ YAZILIM LİSANSI
+TÜM HAKLARI SAKLIDIR
+
+Telif Hakkı © 2026 Kadir Can Yildirim
+https://github.com/kadircanyildirm-crypto/savas-oyunu
+
+======================================================================
+TÜRKÇE (ESAS METİN)
+======================================================================
+
+1. KAPSAM VE SAHİPLİK
+Bu depo ve içindeki "ÇELİK FIRTINA" oyunu ("Yazılım"); tüm kaynak kodu,
+oyun tasarımı ve mekanikleri, hikâye, bölüm ve görev kurguları, karakter,
+birlik ve çağrı adları, diyalog ve telsiz metinleri, arayüz tasarımı,
+kodla üretilen dokular, modeller, efektler ve sesler dahil olmak üzere,
+7. maddede sayılan üçüncü taraf bileşenleri hariç, Kadir Can Yildirim'in
+("Hak Sahibi") mülkiyetindedir. Yazılım, 5846 sayılı Fikir ve Sanat
+Eserleri Kanunu ve uluslararası telif hakkı mevzuatı ile korunmaktadır.
+Bu lisans size hiçbir mülkiyet hakkı devretmez.
+
+2. İZİN VERİLEN KULLANIM
+Yalnızca aşağıdaki kullanımlara izin verilir:
+  a) Oyunu resmi yayın adresinde kişisel ve ticari olmayan amaçla
+     ücretsiz oynamak:
+     https://kadircanyildirm-crypto.github.io/savas-oyunu/
+  b) Kaynak kodunu GitHub üzerinde görüntülemek. GitHub Hizmet
+     Şartları'nın zorunlu kıldığı GitHub içi görüntüleme ve çatallama
+     (fork), bu lisanstaki yasakların hiçbirine izin vermez.
+  c) Oyunu oynarken çekilen ekran görüntülerini ve videoları (yayın,
+     inceleme, tanıtım) oyunun adı ve Hak Sahibi belirtilerek paylaşmak.
+
+3. YASAKLAR
+Hak Sahibinin önceden verilmiş yazılı izni olmadan aşağıdakiler kesinlikle
+yasaktır:
+  a) Yazılımın tamamını veya herhangi bir bölümünü kopyalamak, çoğaltmak,
+     indirip başka bir web sitesinde, oyun portalında, uygulama
+     mağazasında veya herhangi bir platformda barındırmak ya da yayınlamak.
+  b) Yazılımı değiştirmek, uyarlamak, çevirmek, yeniden düzenlemek veya
+     ondan türev eser oluşturmak.
+  c) Kodu, tasarımı, hikâyeyi, metinleri veya diğer içerikleri başka bir
+     proje, oyun veya üründe kullanmak.
+  d) Yazılımı satmak, kiralamak, lisanslamak, dağıtmak ya da reklam,
+     bağış, abonelik veya oyun içi satış dahil herhangi bir ticari
+     amaçla kullanmak.
+  e) Telif hakkı, lisans ve sahiplik bildirimlerini kaldırmak,
+     değiştirmek veya gizlemek; Yazılımı kendi eseriymiş gibi sunmak.
+  f) Kaynak kodunu veya içerikleri yapay zekâ ve makine öğrenmesi
+     modellerinin eğitiminde, veri setlerinde veya kod üretiminde
+     kullanmak.
+  g) Tersine mühendislik veya otomatik araçlarla varlıkları çıkarıp
+     Yazılım dışında kullanmak.
+
+4. İZİN TALEBİ
+2. maddede sayılanlar dışındaki her kullanım için Hak Sahibinden önceden
+yazılı izin alınması gerekir. İzin talepleri GitHub deposu üzerinden
+iletilebilir. Sessizlik veya yanıt verilmemesi izin anlamına gelmez.
+
+5. İHLAL VE FESİH
+Bu lisansa aykırı her kullanım, size tanınan tüm hakları bildirim
+gerekmeksizin derhal sona erdirir ve telif hakkı ihlali oluşturur. Hak
+Sahibi; ihlal eden içeriğin kaldırılmasını talep etme (DMCA bildirimleri
+dahil), maddi ve manevi tazminat isteme ve diğer tüm yasal yollara
+başvurma haklarını saklı tutar.
+
+6. SORUMLULUK REDDİ
+Yazılım "OLDUĞU GİBİ" sunulur ve hiçbir açık veya örtülü garanti
+verilmez. Hak Sahibi, Yazılımın kullanımından veya kullanılamamasından
+doğan hiçbir doğrudan ya da dolaylı zarardan sorumlu tutulamaz.
+
+7. ÜÇÜNCÜ TARAF BİLEŞENLERİ
+Bu lisans aşağıdaki bileşenleri kapsamaz; bunlar kendi lisanslarına
+tabidir. Ayrıntılar THIRD_PARTY_NOTICES.md dosyasındadır.
+  - three.js r128 (js/three.min.js) ve three.js örnek dosyaları
+    (js/lib/): MIT Lisansı, Telif Hakkı © 2010-2021 three.js authors.
+  - Soldier 3B modeli ve animasyonları (assets/Soldier.glb,
+    assets/soldier_b64.js): three.js örneklerinden alınmış Mixamo
+    (Adobe) karakteri; kendi kullanım koşullarına tabidir.
+
+8. DİL
+Bu lisansın Türkçe ve İngilizce metinleri arasında farklılık olması
+halinde Türkçe metin esas alınır.
+
+======================================================================
+ENGLISH (TRANSLATION)
+======================================================================
+
+PROPRIETARY SOFTWARE LICENSE · ALL RIGHTS RESERVED
+Copyright © 2026 Kadir Can Yildirim
+
+1. SCOPE AND OWNERSHIP
+This repository and the game "ÇELİK FIRTINA" (the "Software"), including
+all source code, game design and mechanics, story, chapter and mission
+design, character, unit and call sign names, dialogue and radio texts,
+user interface design, and all procedurally generated textures, models,
+effects and sounds, except the third-party components listed in
+Section 7, are the property of Kadir Can Yildirim (the "Owner"). The
+Software is protected by Turkish Law No. 5846 on Intellectual and
+Artistic Works and by international copyright law. This license does
+not transfer any ownership rights to you.
+
+2. PERMITTED USE
+Only the following uses are permitted:
+  a) Playing the game free of charge, for personal and non-commercial
+     purposes, at its official address:
+     https://kadircanyildirm-crypto.github.io/savas-oyunu/
+  b) Viewing the source code on GitHub. Viewing and forking within
+     GitHub as required by the GitHub Terms of Service does not grant
+     permission for any of the activities prohibited by this license.
+  c) Sharing screenshots and videos of gameplay (streams, reviews,
+     showcases) with credit to the game title and the Owner.
+
+3. PROHIBITIONS
+Without the Owner's prior written permission, you may NOT:
+  a) Copy or reproduce the Software in whole or in part, or download it
+     and host or publish it on any other website, game portal, app
+     store or platform.
+  b) Modify, adapt, translate, rearrange or create derivative works of
+     the Software.
+  c) Use the code, design, story, texts or any other content in any
+     other project, game or product.
+  d) Sell, rent, sublicense or distribute the Software, or use it for
+     any commercial purpose, including advertising, donations,
+     subscriptions or in-game sales.
+  e) Remove, alter or obscure any copyright, license or ownership
+     notices, or present the Software as your own work.
+  f) Use the source code or content to train artificial intelligence or
+     machine learning models, in datasets, or for code generation.
+  g) Extract assets by reverse engineering or automated tools for use
+     outside the Software.
+
+4. PERMISSION REQUESTS
+Any use not listed in Section 2 requires the Owner's prior written
+permission. Requests may be submitted through the GitHub repository.
+Silence or lack of response does not constitute permission.
+
+5. VIOLATION AND TERMINATION
+Any use in breach of this license immediately terminates all rights
+granted to you, without notice, and constitutes copyright infringement.
+The Owner reserves the right to request removal of infringing content
+(including DMCA notices), to claim damages and to pursue all other
+legal remedies.
+
+6. DISCLAIMER
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED. IN NO EVENT SHALL THE OWNER BE LIABLE FOR ANY DIRECT OR
+INDIRECT DAMAGES ARISING FROM THE USE OF, OR INABILITY TO USE, THE
+SOFTWARE.
+
+7. THIRD-PARTY COMPONENTS
+This license does not cover the following components, which remain
+subject to their own licenses. See THIRD_PARTY_NOTICES.md for details.
+  - three.js r128 (js/three.min.js) and three.js example files
+    (js/lib/): MIT License, Copyright © 2010-2021 three.js authors.
+  - Soldier 3D model and animations (assets/Soldier.glb,
+    assets/soldier_b64.js): a Mixamo (Adobe) character taken from the
+    three.js examples, subject to its own terms of use.
+
+8. LANGUAGE
+In case of any discrepancy between the Turkish and English versions of
+this license, the Turkish version shall prevail.
